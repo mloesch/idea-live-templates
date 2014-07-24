@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="user">
+<templateSet group="mloesch">
   <template name="log" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASS_NAME$.class);" description="create logger" toReformat="true" toShortenFQNames="false">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
